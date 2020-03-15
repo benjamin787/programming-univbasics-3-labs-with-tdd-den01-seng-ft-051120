@@ -1,15 +1,13 @@
 # Add your variables here
-#first_number = get_variable_from_file('./calculator.rb', "first_number")
+def calculator(first_number, second_number)
+  p first_number
+  p second_number
+end
 
-#second_number = get_variable_from_file('./calculator.rb', "second_number")
-
-#def add('first_number', 'second_number')
+def sum
+  calculator
   sum = first_number + second_number
   p sum
-#end
+end
 
-#difference = first_number - second_number
-
-#product = first_number * second_number
-
-#quotient = first_number / second_number
+sum
